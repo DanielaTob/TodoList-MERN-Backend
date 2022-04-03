@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
+const cors = require('cors')
 
 const { mongoose } = require('./database');
 
@@ -14,6 +15,7 @@ app.set('port', process.env.PORT || 4000);
 
 app. use(morgan('dev'));
 app.use(express.json());
+app.use(cors());
 
 
 // Routes
