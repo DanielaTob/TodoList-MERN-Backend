@@ -11,7 +11,10 @@ router.get('/', async (req, res) =>{
 
 //Only Task
 
-router.get('/:id')
+router.get('/:id', async (req, res) =>{
+    const task = await Task.findById(req.params.id);
+    res.json(task);
+})
 
 //Task Saved
 router.post('/', async (req, res) =>{
