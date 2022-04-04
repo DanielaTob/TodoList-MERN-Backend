@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost/mern-tasks';
+
+const URI = 'mongodb+srv://daniela20:7MB0u6YGUJdw31tW@cluster0.sl7kg.mongodb.net/mern-tasks?retryWrites=true&w=majority';
 
 mongoose.connect(URI)
     .then(db => console.log('DB is connected'))
