@@ -3,7 +3,7 @@ const router = express.Router();
 const cors = require('cors')
 
 var corsOptions = {
-    origin: 'https://todo-list-mern-frontend.vercel.app/',
+    origin: 'https://todo-list-mern-frontend.vercel.app',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   }
 
