@@ -23,4 +23,4 @@ https://documenter.getpostman.com/view/19739589/UVyuTFsW
 ## Developers :smiley_cat:
 
 
-Developed by: * [MongoDB](https://github.com/DanielaTob)
+Developed by:  [Daniela Tobar](https://github.com/DanielaTob)
