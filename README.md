@@ -18,7 +18,9 @@ https://documenter.getpostman.com/view/19739589/UVyuTFsW
 
 * [Node.js](https://nodejs.org/es/)
 * [Express](https://expressjs.com/es/)
-* [MongoDB](https://www.mongodb.com/es)
+<img  src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+
+<img  src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/>
 
 ## Developers :smiley_cat:
 
